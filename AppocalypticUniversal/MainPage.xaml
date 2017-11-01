@@ -8,6 +8,45 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="254*"/>
+            <RowDefinition Height="45*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="115*"/>
+            <ColumnDefinition Width="366*"/>
+            <ColumnDefinition Width="159*"/>
+        </Grid.ColumnDefinitions>
+        <Pivot Title="Pivot" Grid.Column="1" Margin="0,-4,0,0" Grid.Row="1">
+            <PivotItem Header="Login">
+                <Grid HorizontalAlignment="Center" Height="219" VerticalAlignment="Top" Width="708">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="59*"/>
+                        <RowDefinition Height="66*"/>
+                        <RowDefinition Height="94*"/>
+                    </Grid.RowDefinitions>
+                    <PasswordBox Margin="215,0,209,8" Grid.Row="1" Password="" HorizontalAlignment="Center" Width="284"/>
+                    <Button Content="Button" HorizontalAlignment="Center" Margin="136,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="62" Width="211"/>
+                    <TextBox HorizontalAlignment="Center" Margin="5,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="284" Height="49"/>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Sign Up" Margin="10,10,14,-10">
+                <Grid HorizontalAlignment="Left" Height="417" VerticalAlignment="Top" Width="708">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="59*"/>
+                        <RowDefinition Height="66*"/>
+                        <RowDefinition Height="94*"/>
+                        <RowDefinition Height="94*"/>
+                        <RowDefinition Height="94*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock HorizontalAlignment="Center" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="41" Width="284"/>
+                    <PasswordBox HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="58" Width="284" Password="" PlaceholderText="password"/>
+                    <PasswordBox HorizontalAlignment="Center" Margin="10,28,0,0" Grid.Row="2" VerticalAlignment="Top" Height="58" Width="284" Password="" PlaceholderText="password confirmation"/>
+                    <Button Content="Sign up" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="4" VerticalAlignment="Top" Height="62" Width="211"/>
+                    <TextBox HorizontalAlignment="Center" Margin="10,30,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Height="56" Width="284"/>
+                </Grid>
+            </PivotItem>
+        </Pivot>
     </Grid>
 </Page>
