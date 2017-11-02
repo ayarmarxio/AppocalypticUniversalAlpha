@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="13*"/>
             <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
         <Pivot Grid.Column="1" Grid.Row="1" BorderBrush="#FF9DF305">
@@ -30,24 +30,24 @@
                 </DataTemplate>
             </Pivot.HeaderTemplate>
             <PivotItem Header="login" Margin="0" Background="{x:Null}">
-                <Grid HorizontalAlignment="Center" Height="452" VerticalAlignment="Top" Width="708" Margin="96,0">
+                <Grid HorizontalAlignment="Center" Height="311" VerticalAlignment="Top" Width="506" Margin="96,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="2*"/>
                     </Grid.RowDefinitions>
-                    <PasswordBox Margin="215,0,209,8" Grid.Row="1" Password="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="#FF0BF70B" Width="284" Height="49" PlaceholderText="password" AllowDrop="True"/>
-                    <Button Content="login" HorizontalAlignment="Center" Margin="215,83,209,73" Grid.Row="2" VerticalAlignment="Center" Height="70" Width="284" FontFamily="OCR A Extended" Foreground="#FF0BF70B" FontSize="25">
-                    </Button>
-                    <TextBox HorizontalAlignment="Center" Margin="5,10,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Center" Width="284" Height="49" FontFamily="OCR A Extended" FontSize="24" InputScope="PersonalFullName" PlaceholderText="">
+                    <TextBox HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="240" Height="45" FontFamily="OCR A Extended" FontSize="24" InputScope="PersonalFullName" PlaceholderText="username">
                         <TextBox.Foreground>
                             <SolidColorBrush Color="{ThemeResource SystemBaseMediumColor}"/>
                         </TextBox.Foreground>
                     </TextBox>
+                    <PasswordBox Margin="0,0,0,0" Grid.Row="1" Grid.Column="1" Password="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="#FF0BF70B" Width="240" Height="45" PlaceholderText="password" AllowDrop="True"/>
+                    <Button Content="login" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="45" Width="240" FontFamily="OCR A Extended" Foreground="#FF0BF70B" FontSize="25" Background="#66000000">
+                    </Button>                    
                 </Grid>
             </PivotItem>
             <PivotItem Header="sign up" Margin="0" Background="{x:Null}">
-                <Grid HorizontalAlignment="Center" Height="452" VerticalAlignment="Top" Width="708" Margin="96,0">
+                <Grid HorizontalAlignment="Center" Height="311" VerticalAlignment="Top" Width="506" Margin="96,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="1*"/>
@@ -55,11 +55,11 @@
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="2*"/>
                     </Grid.RowDefinitions>
-                    <TextBox HorizontalAlignment="Center" Margin="10,10,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Center" Height="49" Width="284"/>
-                    <PasswordBox HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Center" Height="49" Width="284" Password="" PlaceholderText="password"/>
-                    <PasswordBox HorizontalAlignment="Center" Margin="10,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="49" Width="284" Password="" PlaceholderText="password confirmation"/>
-                    <Button Content="sign up" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="4" VerticalAlignment="Center" Height="62" Width="284" Foreground="#FF0BF70B" FontSize="25"/>
-                    <TextBox HorizontalAlignment="Center" Margin="10,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="e-mail" VerticalAlignment="Center" Height="49" Width="284"/>
+                    <TextBox HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Center" Height="45" Width="240"/>
+                    <PasswordBox HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="49" Width="240" Password="" PlaceholderText="password"/>
+                    <PasswordBox HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="49" Width="240" Password="" PlaceholderText="password confirmation"/>
+                    <TextBox HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="e-mail" VerticalAlignment="Center" Height="49" Width="240"/>
+                    <Button Content="sign up" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="62" Width="240" Foreground="#FF0BF70B" FontSize="25"/>
                 </Grid>
             </PivotItem>
         </Pivot>
