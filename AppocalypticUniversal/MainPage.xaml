@@ -25,7 +25,7 @@
             <Pivot.HeaderTemplate>
                 <DataTemplate>
                     <Grid>
-                        <TextBlock Text="{Binding}" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontWeight="Bold" />
+                        <TextBlock Text="{Binding}" Foreground="#FF0BF70B" FontFamily="OCR A E xtended" FontSize="35" FontWeight="Bold" />
                     </Grid>
                 </DataTemplate>
             </Pivot.HeaderTemplate>
@@ -37,8 +37,7 @@
                         <RowDefinition Height="2*"/>
                     </Grid.RowDefinitions>
                     <PasswordBox Margin="215,0,209,8" Grid.Row="1" Password="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="#FF0BF70B" Width="284" Height="49" PlaceholderText="password" AllowDrop="True"/>
-                    <Button Content="login" HorizontalAlignment="Center" Margin="215,83,209,73" Grid.Row="2" VerticalAlignment="Center" Height="70" Width="284" FontFamily="OCR A Extended" Foreground="#FF0BF70B" FontSize="25">
-                    </Button>
+                    <Button Content="login" HorizontalAlignment="Center" Margin="215,10,209,123" Grid.Row="2" VerticalAlignment="Center" Height="93" Width="284" FontFamily="OCR A Extended" Foreground="#FF0BF70B" FontSize="45"/>
                     <TextBox HorizontalAlignment="Center" Margin="5,10,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Center" Width="284" Height="49" FontFamily="OCR A Extended" FontSize="24" InputScope="PersonalFullName" PlaceholderText="">
                         <TextBox.Foreground>
                             <SolidColorBrush Color="{ThemeResource SystemBaseMediumColor}"/>
@@ -63,6 +62,5 @@
                 </Grid>
             </PivotItem>
         </Pivot>
-        <StackPanel Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="206,153,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
-    </Grid>
+      </Grid>
 </Page>
