@@ -9,7 +9,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Assets/APPocalyptic Login Form 24NEW.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="ms-appx:///Assets/APPocalyptic Login Form 24NEW.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="5*"/>
