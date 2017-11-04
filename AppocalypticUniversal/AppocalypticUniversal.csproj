@@ -115,6 +115,7 @@
   <ItemGroup>
     <Content Include="Assets\APPocalyptic Login Form 2.jpg" />
     <Content Include="Assets\APPocalyptic Login Form 24NEW.jpg" />
+    <Content Include="Assets\APPocalyptic Login Form 5.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

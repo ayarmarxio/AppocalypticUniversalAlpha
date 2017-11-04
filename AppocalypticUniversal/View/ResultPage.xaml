@@ -7,21 +7,22 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/APPocalyptic Login Form 5.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="174*"/>
-            <ColumnDefinition Width="891*"/>
-            <ColumnDefinition Width="215*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="182*"/>
-            <RowDefinition Height="127*"/>
-            <RowDefinition Height="276*"/>
-            <RowDefinition Height="135*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="303,41,0,0" Grid.Row="1" TextWrapping="Wrap" Text="CODE " VerticalAlignment="Top" Height="39" Width="177"/>
-        <ScrollBar Grid.Column="1" HorizontalAlignment="Left" Margin="220,91,0,0" Grid.Row="1" VerticalAlignment="Top" Height="16" Width="16"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="266" Width="881"/>
-
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="CODE" Foreground="#FF0BF70B" VerticalAlignment="Center" Height="39" Width="177"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="TextBlock" Foreground="#FF0BF70B" VerticalAlignment="Center" Height="200" Width="700"/>
     </Grid>
 </Page>
