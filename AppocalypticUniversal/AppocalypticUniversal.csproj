@@ -97,6 +97,8 @@
     </Compile>
     <Compile Include="Model\Player.cs" />
     <Compile Include="Model\Questions.cs" />
+    <Compile Include="ViewModel\PlayerVM.cs" />
+    <Compile Include="ViewModel\QuestionVM.cs" />
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -149,9 +151,7 @@
       <Version>6.0.1</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

@@ -26,5 +26,10 @@ namespace AppocalypticUniversal
         {
             this.InitializeComponent();
         }
+
+        private void LoginBtn_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(QuizPage));
+        }
     }
 }
