@@ -27,11 +27,11 @@ namespace AppocalypticUniversal.Model
 
         private void LoadTheQuestions()
         {
-            _energyArr = System.IO.File.ReadAllLines(@"C:\Users\asus\Source\Repos\AppocalypticUniversalAlpha\AppocalypticUniversal\bin\ARM\Debug\EnergyQuestions.txt");
-            _tacticsArr = System.IO.File.ReadAllLines(@"C:\Users\asus\Source\Repos\AppocalypticUniversalAlpha\AppocalypticUniversal\bin\ARM\Debug\TacticsQuestions.txt");
-            _natureArr = System.IO.File.ReadAllLines(@"C:\Users\asus\Source\Repos\AppocalypticUniversalAlpha\AppocalypticUniversal\bin\ARM\Debug\NatureQuestions.txt");
-            _identifyArr = System.IO.File.ReadAllLines(@"C:\Users\asus\Source\Repos\AppocalypticUniversalAlpha\AppocalypticUniversal\bin\ARM\Debug\IdentifyQuestions.txt");
-            _mindArr = System.IO.File.ReadAllLines(@"C:\Users\asus\Source\Repos\AppocalypticUniversalAlpha\AppocalypticUniversal\bin\ARM\Debug\MindQuestions.txt");
+            _energyArr = System.IO.File.ReadAllLines(@"\Model\QuestionsInTxt\EnergyQuestions.txt");
+            _tacticsArr = System.IO.File.ReadAllLines(@"\Model\QuestionsInTxt\TacticsQuestions.txt");
+            _natureArr = System.IO.File.ReadAllLines(@"\Model\QuestionsInTxt\NatureQuestions.txt");
+            _identifyArr = System.IO.File.ReadAllLines(@"\Model\QuestionsInTxt\IdentifyQuestions.txt");
+            _mindArr = System.IO.File.ReadAllLines(@"\Model\QuestionsInTxt\MindQuestions.txt");
         }
     }
 }
