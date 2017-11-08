@@ -11,11 +11,11 @@
         <Grid.Background>
             <ImageBrush ImageSource="ms-appx:///Assets/APPocalyptic Login Form 2.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Grid HorizontalAlignment="Left" Height="720" VerticalAlignment="Top" Width="1280">
+        <Grid HorizontalAlignment="Center" Height="Auto" VerticalAlignment="Center" Width="Auto">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="9*"/>
-                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
@@ -32,53 +32,52 @@
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="40" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
-                <Run Text="Example of question"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
+                <Run Text="Example of question/ Example of question/ Example of question / Example of question / Example of question"/>
                 <Run Text=" 1"/>
                 <Run Text=" text"/>
             </TextBlock>
-            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="62" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="722" Orientation="Horizontal">
-                <RadioButton Content="Yes" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
-                <RadioButton Content="No" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="482,0,0,0" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="400" Orientation="Horizontal">
+                <RadioButton Content="Yes" HorizontalAlignment="Left" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
+                <RadioButton Content="No" HorizontalAlignment="Right" Margin="160,0,0,0" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
             </StackPanel>
-            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="40" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
-                <Run Text="Example of question"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
+                <Run Text="Example of question 2 Example of question/ Example of question/ Example of question / Example of question / Example of question"/>
                 <Run Text=" 2"/>
                 <Run Text=" text"/>
             </TextBlock>
-            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="62" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="722" Orientation="Horizontal">
-                <RadioButton Content="Yes" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
-                <RadioButton Content="No" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="482,0,0,0" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="400" Orientation="Horizontal">
+                <RadioButton Content="Yes" HorizontalAlignment="Left" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
+                <RadioButton Content="No" HorizontalAlignment="Right" Margin="160,0,0,0" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
             </StackPanel>
-            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="5" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="40" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
-                <Run Text="Example of question "/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="5" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
+                <Run Text="Example of question 3/ Example of question"/>
                 <Run Text="3 "/>
                 <Run Text="text"/>
             </TextBlock>
-            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="62" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Width="722" Orientation="Horizontal">
-                <RadioButton Content="Yes" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
-                <RadioButton Content="No" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="482,0,0,0" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Width="400" Orientation="Horizontal">
+                <RadioButton Content="Yes" HorizontalAlignment="Left" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
+                <RadioButton Content="No" HorizontalAlignment="Right" Margin="160,0,0,0" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
             </StackPanel>
-            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="7" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="40" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
-                <Run Text="Example of question "/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="7" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
+                <Run Text="Example of question 4 Example of question/ Example of question/ Example of question / Example of question / Example of question 4 "/>
                 <Run Text="4 "/>
                 <Run Text="text"/>
             </TextBlock>
-            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="62" Margin="0,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="722" Orientation="Horizontal">
-                <RadioButton Content="Yes" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
-                <RadioButton Content="No" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="482,0,0,0" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Margin="0,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="400" Orientation="Horizontal">
+                <RadioButton Content="Yes" HorizontalAlignment="Left" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
+                <RadioButton Content="No" HorizontalAlignment="Right" Margin="160,0,0,0" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
             </StackPanel>
-            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="9" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="40" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
-                <Run Text="Example of question "/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="9" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="1000" Foreground="#FF0BF70B" FontFamily="OCR A Extended" FontSize="22">
+                <Run Text="Example of question5 "/>
                 <Run Text="5 "/>
                 <Run Text="text"/>
             </TextBlock>
-            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="62" Margin="0,0,0,0" Grid.Row="10" VerticalAlignment="Center" Width="722" Orientation="Horizontal">
-                <RadioButton Content="Yes" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
-                <RadioButton Content="No" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="482,0,0,0" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B"/>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Margin="0,0,0,0" Grid.Row="10" VerticalAlignment="Center" Width="400" Orientation="Horizontal">
+                <RadioButton Content="Yes" HorizontalAlignment="Left" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" BorderThickness="0"/>
+                <RadioButton Content="No" HorizontalContentAlignment="Stretch" HorizontalAlignment="Right" Margin="160,0,0,0" VerticalAlignment="Stretch" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF0BF70B" Width="21" RenderTransformOrigin="0.5,0.5"/>
             </StackPanel>
-            <Button Content="Next" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="11" VerticalAlignment="Center" Foreground="#FF0BF70B" Height="48" Width="240" Background="#66111111" FontFamily="OCR A Extended" FontSize="36"/>
+            <Button Content="Next" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="11" VerticalAlignment="Center" Foreground="#FF0BF70B" Height="48" Width="240" Background="#66111111" FontFamily="OCR A Extended" FontSize="36" Click="Button_Click"/>
         </Grid>
-
     </Grid>
 </Page>
