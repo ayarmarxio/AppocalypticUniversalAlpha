@@ -42,7 +42,7 @@
                         </TextBox.Foreground>
                     </TextBox>
                     <PasswordBox Margin="0,0,0,0" Grid.Row="1" Password="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="#FF0BF70B" Width="200" Height="45" PlaceholderText="password" AllowDrop="True"/>
-                    <Button Content="login" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="45" Width="200" FontFamily="OCR A Extended" Foreground="#FF0BF70B" FontSize="25" Background="#66000000">
+                    <Button Content="login" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="45" Width="200" FontFamily="OCR A Extended" Foreground="#FF0BF70B" FontSize="25" Background="#66000000" Click="Button_Click">
                     </Button>
                 </Grid>
             </PivotItem>
