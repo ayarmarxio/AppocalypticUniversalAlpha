@@ -117,6 +117,11 @@
   <ItemGroup>
     <Content Include="Assets\APPocalyptic Login Form 2.jpg" />
     <Content Include="Assets\APPocalyptic Login Form 24NEW.jpg" />
+    <Content Include="Assets\energy questions.txt" />
+    <Content Include="Assets\identity questions.txt" />
+    <Content Include="Assets\mind questions.txt" />
+    <Content Include="Assets\nature questions.txt" />
+    <Content Include="Assets\tactics questions.txt" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
